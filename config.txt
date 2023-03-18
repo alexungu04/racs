@@ -1,0 +1,10 @@
+client_immersive = 1
+client_decoder_h265 = true
+client_vsync=1
+client_decoder_10bit=false
+client_overlay=0
+app_flags = 1
+app_run_level = 1
+app_changelog_ver = 6
+app_arcade=0
+app_friends=0
