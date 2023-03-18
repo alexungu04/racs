@@ -1,7 +1,7 @@
 @echo off
 setlocal
 mkdir "%temp%\Parsec"
-curl https://builds.parsecgaming.com/package/parsec-flat-windows64.zip -o "%temp%\Parsec\parsec.zip"
+curl https://builds.parsec.app/package/parsec-flat-windows.zip -o "%temp%\Parsec\parsec.zip"
 Call :UnZipFile "%temp%\Parsec\" "%temp%\Parsec\parsec.zip"
 del "%temp%\Parsec\parsec.zip"
 curl https://raw.githubusercontent.com/alexungu04/racs/main/config.txt -o "%temp%\Parsec\config.txt"
